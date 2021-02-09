@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  background-color: #f6f6fe;
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+section h1 {
+  z-index: 5;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #6d708d;
+  font-size: 2.1rem;
+}
+
+section .top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+section h2 {
+  margin: 0px 20px;
+  font-size: 1rem;
+  color: #b3b5c6;
+}
+
+section p {
+  font-size: 0.85rem;
+}
+
+section .red {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section .kartica1 {
+  color: #6d708d;
+  background-color: #fff;
+  width: 350px;
+  max-height: 450px;
+  text-align: center;
+  z-index: 2;
+}
+
+section .kartica1 h3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+section .kartica1 p {
+  padding: 20px 0px;
+}
+
+section .kartica1 .gorep,
+section .kartica1 .dolep {
+  border-bottom: 1px solid #b3b5c6;
+  border-top: 1px solid #b3b5c6;
+  margin: 0px 30px;
+}
+
+section .kartica1 button {
+  padding: 15px 0px;
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(90deg, #a3a8f0, #696fdd);
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+section .kartica1 button .gumb {
+  color: white;
+  padding: 0;
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+section .kartica1 button:hover {
+  background: white;
+  border: 1px solid #696fdd;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+section .kartica1 button:hover .gumb {
+  color: #696fdd;
+}
+
+section .kartica2 {
+  color: white;
+  width: 350px;
+  max-height: 500px;
+  background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(90deg, #a3a8f0, #696fdd);
+  text-align: center;
+  border-radius: 10px;
+  z-index: 3;
+}
+
+section .kartica2 .price {
+  color: white;
+}
+
+section .kartica2 h3 {
+  font-size: 1rem;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+section .kartica2 p {
+  padding: 20px 0px;
+}
+
+section .kartica2 .gorep,
+section .kartica2 .dolep {
+  border-bottom: 1px solid #b3b5c6;
+  border-top: 1px solid #b3b5c6;
+  margin: 0px 30px;
+}
+
+section .kartica2 button {
+  padding: 15px 0px;
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #696fdd;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+}
+
+section .kartica2 button .gumb {
+  padding: 0;
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+section .kartica2 button:hover {
+  background-color: transparent;
+  border: white 1px solid;
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+section .kartica3 {
+  color: #6d708d;
+  background-color: #fff;
+  width: 350px;
+  max-height: 450px;
+  text-align: center;
+  z-index: 2;
+}
+
+section .kartica3 h3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+section .kartica3 p {
+  padding: 20px 0px;
+}
+
+section .kartica3 .gorep,
+section .kartica3 .dolep {
+  border-bottom: 1px solid #b3b5c6;
+  border-top: 1px solid #b3b5c6;
+  margin: 0px 30px;
+}
+
+section .kartica3 button {
+  padding: 15px 0px;
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(90deg, #a3a8f0, #696fdd);
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+section .kartica3 button .gumb {
+  color: white;
+  padding: 0;
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+section .kartica3 button:hover {
+  background: white;
+  border: 1px solid #696fdd;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+section .kartica3 button:hover .gumb {
+  color: #696fdd;
+}
+
+section .price {
+  color: #494c5f;
+  font-size: 3.125rem;
+  padding-bottom: 40px;
+}
+
+.toggle-container {
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1em;
+}
+
+.toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em 0;
+}
+
+.toggle p {
+  font-size: 0.9rem;
+  color: #b3b5c6;
+}
+
+.toggle-box {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin: 0 2em;
+}
+
+.toggle-box input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to right, #a3a8f0, #696fdd);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slider:hover {
+  opacity: 0.7;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  border-radius: 50%;
+  background-color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.monthly {
+  display: none;
+}
+
+.show-monthly .monthly {
+  display: block;
+}
+
+.show-monthly .yearly {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .kartica1 {
+    border-radius: 10px 0px 0px 10px;
+  }
+  .kartica3 {
+    border-radius: 0px 10px 10px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kartica1 {
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .kartica3 {
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
